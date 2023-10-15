@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <title>Tienda de guitarras y accesorios musicales</title>
+</head>
+
+<body>
+    <header>
+        <div>
+            <input id="buscador" placeholder="Buscar">
+            <button id="buscar"><img src="./assets/loupe.png"></button>
+            <button id="resetearBusqueda">Ver todos los productos</button>
+        </div>
+        <div>
+            <button id="verOcultar"><img src="./assets/shopping-cart.png"></button>
+        </div>
+    </header>
+    <main>
+        <div class="oculta" id="carrito">
+        </div>
+        <div id="contenedorProd">
+        </div>
+    </main>
+    <footer>
+        <p>Buenos Aires, Argentina. 2023. Todos los derechos reservados.</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="myscript.js"></script>
+</body>
+
+</html>
